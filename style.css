@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+body {
+  background: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+img {
+  position: absolute;
+  align-self: center;
+  margin: auto;
+  z-index: -3;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+
+  display: inline;
+  
+  justify-content: center;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+.navbar {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  left: 18em;
+}
+
+.button-small {
+  position: absolute;
+  right: 16em;
+  background: #ff505f;
+
+  width: 150px;
+  height: 50px;
+
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+
+  border: none;
+}
+
+ul {
+  margin-top: 50px;
+  list-style-type: none;
+}
+
+li {
+  float: left;
+  margin-right: 40px;
+  font-size: 30px;
+  color: #ffc233;
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+.hero {
+  width: 100%;
+  height: 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+}
+.hero-heading {
+  position: absolute;
+  width: 50%;
+  color: white;
+  font-size: 90px;
+  text-align: center;
+  color: #ffc233;
+  font-size: bolder;
+}
+
+.button-large {
+  right: 16em;
+  background: #ff505f;
+
+  width: 200px;
+  height: 60px;
+
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+
+  border: none;
+  margin-top: 24em;
+}
+.bottom {
+
+  position: absolute;
+  bottom: -10em;
+  right: -30em;
+  width: 100%;
+  height: 30%;
+
+  display: flex;
+  justify-content: center;
+}
